@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tic Tac Toe</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="text-box">
+        <h1 id="headline">Tic Tac Toe</h1>
+        <input type="text" value="Player 1 Name" onfocus="this.value=''" id="player1-input">
+        <button id="player1-submit" type="submit">Submit</button>
+        <br>
+        <input type="text" value="Player 2 Name" onfocus="this.value=''" id="player2-input">
+        <button id="player2-submit" type="submit">Submit</button>
+        <h2 id="player1-name"></h2>
+        <h2 id="player2-name"></h2>
+        </div>
+        <button id="restart" type="submit">Restart</button>
+        <div id="winner-banner">
+        <h2 id="winner-banner-text"></h2>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
